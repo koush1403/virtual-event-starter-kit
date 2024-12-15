@@ -47,20 +47,17 @@
     axios "^0.21.1"
     axios-cache-adapter "^2.4.1"
 
-"@agility/content-fetch@^1.0.0":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.2.tgz#05cd96a4ad055448b489fcc3fccc821eb47577b1"
-  integrity sha512-geUl6TAZH4uTj/pLiFeUchDpB9l0643aQt2yLnEHfy2zsyieJnMdClmWTEVw94vcSEqTNOu7/LOw5sHf5Iw43A==
-  dependencies:
-    axios "^0.21.1"
-    axios-cache-adapter "^2.4.1"
+"@agility/content-fetch@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-2.0.8.tgz#aa53366d70abd1576b62b8b2ea897054de5fc091"
+  integrity sha512-Sf6Hs8Pp9rCeNpAeJYFK19zA4S2lEQFy71NjR9N44K66NSQM9B199oypMWUKvI5AteNG+3qn35yD6Dk4/UhijQ==
 
-"@agility/content-sync@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.0.3.tgz#33441a17fb7b22a54f51a870c8fecf5d211298f2"
-  integrity sha512-KhaSiD3j+XXh2/oWy3+WrizBHGTxq33yWX6Qow4sGIRH4o5+suQzuBEZUyj/Kj5fEDuTV6AJIJseKhggQbaNpA==
+"@agility/content-sync@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.1.8.tgz#f4593a1b92e04771688e5c16569b6a44c9c39b6b"
+  integrity sha512-jePTJvQ6hQf/8dvvagGp8JGp+7eCjxg0BUmQ/knc1QNRgA/+Wr6yvas79QUG53du6iSHJAVKohzk1RDmlTbtuQ==
   dependencies:
-    "@agility/content-fetch" "^1.0.0"
+    "@agility/content-fetch" "^2.0.8"
     dotenv "^8.2.0"
     proper-lockfile "^4.1.2"
 
