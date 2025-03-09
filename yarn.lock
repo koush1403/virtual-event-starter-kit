@@ -39,28 +39,22 @@
     react-resize-detector "^7.0.0"
     zustand "^3.6.2"
 
-"@agility/content-fetch@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.1.tgz#d8a91ceea8e7809c84ee954cb08444071612b3e0"
-  integrity sha512-d7IyZSYL16HGOMhnWs/W4rMqMBUSHfTelDdxrwuGuc3EXlth83VwPVsZZuIxQDI5EJzXOcsvMUT6B1ENDSrd5A==
-  dependencies:
-    axios "^0.21.1"
-    axios-cache-adapter "^2.4.1"
+"@agility/content-fetch@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-2.0.0.tgz#57a3e93ea0927284be582fc6382251385ab9ad95"
+  integrity sha512-ghqdv/IozVASwPgZThZrmufbo8q5a5UMOMOyy9CCSS8BVx5r+QxjRLTEXQOp7xpoJO1vhe3QUkOmCppssBf3Eg==
 
-"@agility/content-fetch@^1.0.0":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.2.tgz#05cd96a4ad055448b489fcc3fccc821eb47577b1"
-  integrity sha512-geUl6TAZH4uTj/pLiFeUchDpB9l0643aQt2yLnEHfy2zsyieJnMdClmWTEVw94vcSEqTNOu7/LOw5sHf5Iw43A==
-  dependencies:
-    axios "^0.21.1"
-    axios-cache-adapter "^2.4.1"
+"@agility/content-fetch@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-2.0.8.tgz#aa53366d70abd1576b62b8b2ea897054de5fc091"
+  integrity sha512-Sf6Hs8Pp9rCeNpAeJYFK19zA4S2lEQFy71NjR9N44K66NSQM9B199oypMWUKvI5AteNG+3qn35yD6Dk4/UhijQ==
 
-"@agility/content-sync@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.0.3.tgz#33441a17fb7b22a54f51a870c8fecf5d211298f2"
-  integrity sha512-KhaSiD3j+XXh2/oWy3+WrizBHGTxq33yWX6Qow4sGIRH4o5+suQzuBEZUyj/Kj5fEDuTV6AJIJseKhggQbaNpA==
+"@agility/content-sync@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.1.8.tgz#f4593a1b92e04771688e5c16569b6a44c9c39b6b"
+  integrity sha512-jePTJvQ6hQf/8dvvagGp8JGp+7eCjxg0BUmQ/knc1QNRgA/+Wr6yvas79QUG53du6iSHJAVKohzk1RDmlTbtuQ==
   dependencies:
-    "@agility/content-fetch" "^1.0.0"
+    "@agility/content-fetch" "^2.0.8"
     dotenv "^8.2.0"
     proper-lockfile "^4.1.2"
 
@@ -1548,21 +1542,6 @@ autoprefixer@^9.6.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-axios-cache-adapter@^2.4.1:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/axios-cache-adapter/-/axios-cache-adapter-2.7.3.tgz#0d1eefa0f25b88f42a95c7528d7345bde688181d"
-  integrity sha512-A+ZKJ9lhpjthOEp4Z3QR/a9xC4du1ALaAsejgRGrH9ef6kSDxdFrhRpulqsh9khsEnwXxGfgpUuDp1YXMNMEiQ==
-  dependencies:
-    cache-control-esm "1.0.0"
-    md5 "^2.2.1"
-
-axios@^0.21.1:
-  version "0.21.4"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
-  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
-  dependencies:
-    follow-redirects "^1.14.0"
-
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -1633,11 +1612,6 @@ bufferutil@^4.0.1:
   dependencies:
     node-gyp-build "^4.3.0"
 
-cache-control-esm@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/cache-control-esm/-/cache-control-esm-1.0.0.tgz#417647ecf1837a5e74155f55d5a4ae32a84e2581"
-  integrity sha512-Fa3UV4+eIk4EOih8FTV6EEsVKO0W5XWtNs6FC3InTfVz+EjurjPfDXY5wZDo/lxjDxg5RjNcurLyxEJBcEUx9g==
-
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
@@ -1687,11 +1661,6 @@ chalk@^4.0.0, chalk@^4.1.2:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
-
-charenc@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
-  integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
 chokidar@^3.5.2:
   version "3.5.2"
@@ -1795,11 +1764,6 @@ cross-spawn@^7.0.2:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
-
-crypt@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
-  integrity sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
 
 css-blank-pseudo@^0.1.4:
   version "0.1.4"
@@ -2309,11 +2273,6 @@ flatten@^1.0.2:
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
   integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
 
-follow-redirects@^1.14.0:
-  version "1.14.5"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
-  integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
-
 fraction.js@^4.1.1:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.2.tgz#13e420a92422b6cf244dff8690ed89401029fbe8"
@@ -2614,11 +2573,6 @@ is-boolean-object@^1.1.0:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
 
-is-buffer@~1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
-  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
-
 is-callable@^1.1.4, is-callable@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.4.tgz#47301d58dd0259407865547853df6d61fe471945"
@@ -2812,15 +2766,6 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
-
-md5@^2.2.1:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
-  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
-  dependencies:
-    charenc "0.0.2"
-    crypt "0.0.2"
-    is-buffer "~1.1.6"
 
 merge2@^1.3.0:
   version "1.4.1"
